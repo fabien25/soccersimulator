@@ -1,0 +1,33 @@
+Sous Windows
+mkdir mon_git
+dir
+echo blablabla>text.txt
+del text.txt
+rmdir <nom du fichier>
+rmdir /s <nom du fichier> (si le repertoire n'est pas vide)
+
+Git
+git status
+git init <nom du fichier>
+git add <nom du fichier.py>
+git commit -m "ok"
+git remote
+git remote remove
+git remote add origin https://github.com/fabien25/soccer.git
+git push --set-upstream origin master
+git pull origin master --allow-unrelated-histories
+
+Branch
+git branch -v = liste des branches
+git branch test = creer une branche "test"
+git checkout test = basculer sur la branche test
+git push origin test = pousser la branche test
+
+Installation python
+python -m pip install pyglet
+
+Proxy
+export https_proxy=proxy:3128
+
+Creer un arbre en pdf
+dot -Tpdf test_arbre.dot -o test_arbre.pdf

@@ -1,0 +1,11 @@
+**Objectif:**
+- Puissance idéal pour shooter (*0.01) vers les buts
+
+**Condition initiale :**
+- Position initial: proche des cages puis s'éloigner
+
+**Méthode d’évaluation :**
+- nb buts marqués
+
+**Paramètres :**
+- Distance but/balle
